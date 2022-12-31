@@ -1,0 +1,59 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background: black;
+    color: #4763ff;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#top-three {
+    color: white;
+    margin: 40px;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+#title {
+    margin: 0px;
+    padding: 50px;
+    color: white;
+    background-image: url("https://media.giphy.com/media/l378ggYRasDXRtUm4/giphy-downsized-large.gif");
+    background-size: cover;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.profile {
+    margin: 50px;
+    display: flex;
+}
+
+.card {
+    margin: 10px 50px;
+    display: block;
+}
+
+#pic {
+    width: 200px;
+    height: auto;
+}
